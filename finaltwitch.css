@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    background-color: #15111f;
+background-image: url("https://www.transparenttextures.com/patterns/dark-geometric.png");
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 2;
+}
+
+h1 {
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 12px 0px;
+    font-size: 2.5em;
+    color: #FFF0D3;
+    
+}
+
+.container {
+    background-color: #17141F;
+    margin: 0px auto;
+    padding: 0px;
+    width: auto;
+    text-align: center;
+}
+
+.options {
+    padding-top: 0.2em;
+    text-align: center;
+    width: 100%;
+}
+
+.header {
+    display: absolute;
+    margin: 0;
+}
+
+#all, #online, #offline {
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 5 5;
+}
+
+.options .btn {
+    color: #EAD6B1;
+    background-color: #201C2B;
+    border: solid 1px #EAD6B1;
+}
+
+.options .btn:hover {
+    background-color: #4f3d66 !important;
+}
+
+#footer {
+    background-color: #17141F;
+    position: relative;
+    padding: 5px;
+    width: inherit;
+    margin-top: 15px !important;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #17141F;
+    background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+    position: relative;
+    padding: 5px;
+    width: inherit;
+    margin: 0 !important;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5%;
+    border: 1px solid #17141F;
+}
+
+.offline {
+    background-color: #EFEEF1;
+    margin-top: 1em;
+}
+
+.offline .streamer:hover {
+    background-color: #E1B8BD;
+}
+
+.online {
+    background-color: #EFEEF1;
+    margin-top: 1em;
+    border: 2px solid #69AF66;
+}
+
+.online .streamer:hover {
+    background-color: #69AF66;
+}
+
+.unavailable {
+    margin-top: 1em;
+    background-color: lightgray;
+}
+
+.unavailable .streamer:hover {
+    background-color: darkgray;
+}
+
+.proflogo {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 5 10 5 20px;
+  border: 1px solid #222;
+  float: left;
+  background: url("https://cdn.rawgit.com/ayoisaiah/freeCodeCamp/master/twitch/images/placeholder-2.jpg");
+  background-size: cover;
+  border-radius: 5%; 
+}
+
+.status {
+  position: absolute;
+  font-size: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding-top: 1.5em;
+  
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.streamer {
+    position: relative;
+}
+
+a {
+    color: #8a5bc2;
+}
+a:hover {
+  text-decoration: none;
+  color: #8a5bc2; 
+}
+
+@media screen and (max-width: 500px) {
+    .status {
+        font-size: 0.9em;
+        padding-top: 0.9em;
+        margin-right: 1em !important;
+    }
+    .proflogo {
+        width: 35px;
+        height: 35px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}
