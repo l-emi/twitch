@@ -43,6 +43,9 @@ $(document).ready(function() {
   function ajax() {
     $.ajax({
       url: "https://api.twitch.tv/kraken/streams/" + streamers[i] + "?callback=?",
+      headers: {
+      "Client-ID": "hpwim380yptokdwj4n6xi9dgjr82w3u"
+      },
       dataType: "jsonp",
       data: {
         format: "json"
