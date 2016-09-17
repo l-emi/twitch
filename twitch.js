@@ -81,6 +81,9 @@ $(document).ready(function() {
   function updateOfflineUsers() {
     $.ajax({
       url: "https://api.twitch.tv/kraken/channels/" + url,
+      headers: {
+      'Client-ID': "hpwim380yptokdwj4n6xi9dgjr82w3u"
+      },
       dataType: "jsonp",
       data: {
         format: "json"
