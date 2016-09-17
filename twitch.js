@@ -117,14 +117,3 @@ $(document).ready(function() {
         $(this).css('background-color', '#4f3d66');
     })
 
-
-
-
-
-
-
-
-
-
-
-
